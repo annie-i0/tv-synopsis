@@ -8,6 +8,10 @@ body {
     margin: 1ch;
   }
 
+  li {
+    text-indent: 0.5ch;
+  }
+
   .season {
     text-align: center;
     font-size: 25px;
@@ -35,7 +39,9 @@ body {
   
   td {
        
-    border: 1px solid black;
+    border: 1px solid;
+    border-top: solid;
+    border-right: solid;
     border-style: solid;
     border-color: black;
     font-size: 16px;
