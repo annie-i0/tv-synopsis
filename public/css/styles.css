@@ -1,0 +1,41 @@
+body {
+    background-color: white
+    color: black
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    width: 75%;
+  }
+  
+  th {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  td {
+       
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .No {
+    width: 10%;
+    text-align: left;
+  }
+  
+  .Title { 
+    width: 50%;
+    text-align: left;
+  }
+  
+  .Director {
+    width: 50%;
+    text-align: left;
+  }

@@ -1,0 +1,21 @@
+html
+  head
+    title TV Synopsis
+    link(rel="stylesheet" href="/css/styles.css")
+    body 
+        h1= title
+        h1 Kim's Convenience 
+          h2 Developed By 
+          ul 
+            for developer in showdata.developedBy
+              li= developer
+          h2 Starring 
+          ul 
+            for stars in showdata.starring
+              li= stars 
+          h2 Seasons 
+          ul
+            for season in showdata.seasons 
+              li 
+                a(href=`/season/${season.number}`)= `Season ${season.number}`
+                  
